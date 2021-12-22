@@ -1,0 +1,180 @@
+/***Advertisement Modal***/
+.ad-modal .modal-dialog{width:800px; margin:30px auto;}
+.ad-modal .modal-content{border-radius:16px;}
+.ad-modal .ad-banner{width:100%; border-radius:15px 15px 0 0;}
+.ad-modal .modal-inn{padding:30px 7%;background: rgba(236, 240, 241, 1);}
+.ad-modal .modal-inn h2, .ad-modal .modal-inn h3{font-size:28px; font-weight:bold; color:#18388f;}
+.ad-modal .modal-inn h4{font-size:16px; font-weight:600;line-height: 1.7em;}
+.ad-modal .modal-inn h5{font-size:18px; margin-bottom:20px;}
+.contact-box{display:flex; text-align:left; margin-bottom:20px; padding:15px 20px; background-color:#f2f5fe; border-radius:6px; -webkit-border-radius:6px;}
+.contact-box img{align-self: center !important; height:40px;}
+.contact-box a{font-size:17px; font-weight:600; color:#18388f;}
+.text-grey{color:#666!important;}
+.ad-modal .close{font-size: 26px; text-shadow:none; color:#91a9e7;}
+@media (max-width: 991px){
+  /***Advertisement Modal***/
+  .ad-modal .modal-dialog{width:700px;}
+}
+@media (max-width: 768px){
+  /***Advertisement Modal***/
+  .ad-modal .modal-dialog{width:auto; margin:10px;}
+  .ad-modal .modal-content{height:auto;}
+  .ad-modal .modal-inn{padding:25px;}
+  .ad-modal .modal-inn h2, .ad-modal .modal-inn h3{font-size:24px;}
+  .ad-modal .modal-inn h4{font-size: 12px;}
+  .ad-modal .modal-inn h5{font-size:15px; line-height:20px;}
+  .contact-box img{height:35px;}
+}
+@media (max-width: 360px){
+  /***Advertisement Modal***/
+  .contact-box{padding:20px;}
+  .contact-box img{height: 35px;}
+  .contact-box a{font-size:14px;}
+}
+/*-New-meeting-Pages-*/
+.width-50{width:50px}
+
+/**Cont-Left**/
+.content-left{width:50%; height:100%; position:fixed; background-color: #18388f;  padding:30px 60px 30px 60px;}
+.content-left h2, .content-left h2 span{color:#fff; font-size:36px;}
+
+.sc-sub-title{font-size:20px; font-weight:500; color:#fff; margin-bottom:20px; text-align:left;}
+.sch-meeting i{font-size:40px; color: #a8ccd5;}
+.sch-meeting h3{font-size:20px; color:#fff; margin: 10px 0 0 0; font-weight:400;}
+
+.sch-meeting ul{list-style:none;}
+.sch-meeting ul li{color:#fff; position:relative; margin-bottom: 5px; padding-left: 15px; line-height:20px; color:#afbbc6;}
+.sch-meeting ul li:before{content:'\f105'!important; font-family: FontAwesome!important; font-size:14px!important; position:absolute; left:0; top:0; }
+
+.content-left-img{position: absolute; bottom:10px; left: 50%; transform: translateX(-50%);}
+
+
+/**Cont-Right**/
+.content-Right{width:50%; margin-left:50%; position:relative; min-height:100vh;}
+
+/**Header and Title**/
+.header{padding:20px 5%;}
+.content-Right .head-title{background-color:#f6f7fb;}
+.content-Right .head-title h2{font-size:26px; color:#18388f; padding:20px 5%;}
+
+.sch-meeting-cont .datepicker-days .day{font-size:14px!important; line-height: 20px!important;}
+.sch-meeting-cont .table-condensed{width:100%;}
+.sch-meeting-cont .datepicker table tr td.active.active,.sch-meeting-cont .datepicker table tr td span.active.active{background-color:#18388f!important; background-image: none;}
+.meeting-date{background:url(../images/date-icon.png) no-repeat right;}
+.meeting-date input{padding-right:30px;}
+
+/**Meeting Time**/
+.meeting-time a{background-color:#f7f6f6; cursor: pointer; border:1px solid #e6e6e6; color:#999; float:left; margin:3px; border-radius: 4px; -webkit-border-radius: 4px; padding:5px; font-size:14px; text-decoration:none;}
+.meeting-time a.active{background-color:#d2e6f9; border-color:#4c8cca; color:#4c8cca;}
+.meeting-time a:hover{border-color: #999!important;}
+
+/**Meeting Time Booked**/
+.meeting-time .booked{background-color:#ccc; border-color:#e6e6e6; color:#fff; cursor: no-drop;}
+
+.alert-time{background-color:#fee4e4; text-align:left; font-size:14px; margin-top:5px;}
+.alert-time .close{font-size:20px; top:0}
+
+/**Schedule meeting on zoom/google/call**/
+.radio-wrap {display: inline-block; text-align: center;}
+.radio-wrap .radio {width: 100%}
+.rd-text {position: relative; font-size:14px; display: inline-block; cursor: pointer; width: 100%; height: 50px; line-height:26px; padding: 10px 10px 10px 32px;  border-radius: 4px; -webkit-border-radius: 4px; overflow: hidden; vertical-align: bottom; background-color:#f7f6f6; border:1px solid #e6e6e6; color:#999; font-weight:600;}
+.rd-text::before {content: ""; position: absolute; top: 12px; left: 12px; right: 0; width: 25px; height: 25px;}
+
+.zoom-meeting span::before {background-image:url(../images/zoom-grey-ico.png); background-repeat: no-repeat;}
+.google-meeting span::before {background-image:url(../images/google-meet-greay-icon.png); background-repeat: no-repeat;}
+.call-meeting span::before {background-image:url(../images/call-grey-icon.png); background-repeat: no-repeat;}
+
+/**hover::before**/
+.zoom-meeting span:hover::before{background-image:url(../images/zoom-hover-ico.png); background-repeat: no-repeat;}
+.google-meeting span:hover::before{background-image:url(../images/google-meet-hover-icon.png); background-repeat: no-repeat;}
+.call-meeting span:hover::before{background-image:url(../images/call-hover-icon.png); background-repeat: no-repeat;}
+
+/**hover**/
+.zoom-meeting span:hover{color:#4a8cff; background-color:#dbe7fc; border-color:#4a8cff;}
+.google-meeting span:hover{color:#058d7f; background-color:#d5fbf7; border-color:#058d7f;}
+.call-meeting span:hover{color:#f57e20; background-color:#fde8d7; border-color:#f57e20;}
+
+/**radio checked text**/
+.zoom-meeting .radio:checked + .rd-text {color:#4a8cff; background-color:#dbe7fc; border-color:#4a8cff;}
+.google-meeting .radio:checked + .rd-text{color:#058d7f; background-color:#d5fbf7; border-color:#058d7f;}
+.call-meeting .radio:checked + .rd-text{color:#f57e20; background-color:#fde8d7; border-color:#f57e20;}
+
+/**radio checked::before**/
+.zoom-meeting .radio:checked + span::before{background-image:url(../images/zoom-hover-ico.png); background-repeat: no-repeat;}
+.google-meeting .radio:checked + span::before{background-image:url(../images/google-meet-hover-icon.png); background-repeat: no-repeat;}
+.call-meeting .radio:checked + span::before{background-image:url(../images/call-hover-icon.png); background-repeat: no-repeat;}
+
+/*-button-active-*/
+.zoom-meeting-active span::before{background-image:url(../images/zoom-hover-ico.png); background-repeat: no-repeat;}
+.google-meeting-active span::before{background-image:url(../images/google-meet-hover-icon.png); background-repeat: no-repeat;}
+.call-meeting-active span::before{background-image:url(../images/call-hover-icon.png); background-repeat: no-repeat;}
+
+.zoom-meeting-active .radio .rd-text {color:#4a8cff; background-color:#dbe7fc; border-color:#4a8cff;}
+.google-meeting-active .radio .rd-text{color:#058d7f; background-color:#d5fbf7; border-color:#058d7f;}
+.call-meeting-active .radio .rd-text{color:#f57e20; background-color:#fde8d7; border-color:#f57e20;}
+
+.zoom-meeting-active .radio + span::before{background-image:url(../images/zoom-hover-ico.png); background-repeat: no-repeat;}
+.google-meeting-active .radio + span::before{background-image:url(../images/google-meet-hover-icon.png); background-repeat: no-repeat;}
+.call-meeting-active .radio + span::before{background-image:url(../images/call-hover-icon.png); background-repeat: no-repeat;}
+
+/**form**/
+.details-box{padding:0 30px;}
+.details-box input{box-shadow: none; padding: 0; -webkit-border-radius: 0; border-radius: 0; border:0; font-weight: 400; font-size: 20px; background: transparent; color: #282828; border-bottom:1px solid #ddd; font-family: 'Lato',Arial,Verdana; height: 45px;text-transform: uppercase}
+.details-box input:focus{border-bottom: solid 1px #000 !important; border: 0;}
+.details-box .form-control:focus{-webkit-transition: border-color ease-in-out .35s; -o-transition: border-color ease-in-out .35s; transition: border-color ease-in-out .35s; box-shadow:none; -webkit-box-shadow:none; -ms-box-shadow:none;}
+.details-box .form-control[disabled]{background-color:transparent;}
+.details-box label, .details-box tbody tr td{position:relative;}
+
+.thank-left-img{position: absolute; bottom:10px; right:60px;}
+
+/**Thank You**/
+.thankyou{width:60%; padding:0 20px; position:absolute; left:50%; top:50%; transform:translate(-50%, -50%); -webkit-transform:translate(-50%, -50%); -ms-transform:translate(-50%, -50%);}
+
+
+  @media (max-width: 1200px){
+    .content-left h2, .content-left h2 span{font-size:30px;}
+    /**Thank You**/
+    .thankyou{width:90%;}
+  }
+
+  @media (max-width: 991px){
+    .margin-m-b-20{margin-bottom: 20px !important}
+    /**Cont-Left**/
+    .content-left{padding:30px;}
+    .sch-meeting h3{font-size: 18px; margin:6px 0 0 0;}
+    .sch-meeting i{font-size: 30px;}
+    .content-left-img{width: 75%;}
+
+    /**Cont-Right**/
+    .content-Right .head-title h2{font-size:20px;}
+  }
+
+  @media (max-width: 767px){
+    /**Cont-Left**/
+    .content-left{width: 100%; height: auto; position: relative;}
+    .content-left h2, .content-left h2 span{font-size:26px;}
+
+    /**Cont-Right**/
+    .header{padding:15px 5%;}
+    .content-Right{width:100%; margin:0; min-height:auto;}
+
+    .details-box{padding:0 20px;}
+
+    /**Thank You**/
+    .thankyou{width:100%; margin: 50px auto; position:relative; top:0; left:0; transform:unset;}
+    .thankyou img{width:75px;}
+  }
+
+  @media (max-width: 576px){
+    /**Meeting Time**/
+    .meeting-time a{font-size:13px;}
+  }
+
+  @media (max-width: 320px){
+    /**datepicker*/
+    .sch-meeting-cont .datepicker{left:9px!important;}
+  }
+
+
+
+
